@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65cf6af2-b1bb-46e7-ab59-e032d5db8ee0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Food.js" afterPath="$PROJECT_DIR$/Food.js" />
-      <change beforePath="$PROJECT_DIR$/specs/FoodTest.js" afterPath="$PROJECT_DIR$/specs/FoodTest.js" />
+      <change beforePath="$PROJECT_DIR$/Hero.js" afterPath="$PROJECT_DIR$/Hero.js" />
+      <change beforePath="$PROJECT_DIR$/specs/HeroTest.js" afterPath="$PROJECT_DIR$/specs/HeroTest.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hero.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hero.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,8 @@
       <file leaf-file-name="HeroTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+            <state relative-caret-position="556">
+              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodTest.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FoodTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/FoodTest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -114,12 +114,12 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Hero.js" />
-        <option value="$PROJECT_DIR$/specs/HeroTest.js" />
         <option value="$PROJECT_DIR$/Task.js" />
         <option value="$PROJECT_DIR$/specs/TaskTest.js" />
         <option value="$PROJECT_DIR$/Food.js" />
         <option value="$PROJECT_DIR$/specs/FoodTest.js" />
+        <option value="$PROJECT_DIR$/Hero.js" />
+        <option value="$PROJECT_DIR$/specs/HeroTest.js" />
       </list>
     </option>
   </component>
@@ -190,21 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Food">
-    <configuration name="Food" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/specs/FoodTest.js</test-file>
-      <test-names>
-        <name value="Food" />
-      </test-names>
-    </configuration>
+  <component name="RunManager" selected="Mocha.Hero.heroes favourite food boost health 1.5 times">
     <configuration name="Hero" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -219,7 +205,7 @@
         <name value="Hero" />
       </test-names>
     </configuration>
-    <configuration name="Hero.can get empty list of tasks" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Hero.can check favourite food" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -231,10 +217,10 @@
       <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
       <test-names>
         <name value="Hero" />
-        <name value="can get empty list of tasks" />
+        <name value="can check favourite food" />
       </test-names>
     </configuration>
-    <configuration name="Hero.can get heroes name" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Hero.hero can eart" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -246,10 +232,10 @@
       <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
       <test-names>
         <name value="Hero" />
-        <name value="can get heroes name" />
+        <name value="hero can eart" />
       </test-names>
     </configuration>
-    <configuration name="Task" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Hero.heroes favourite food boost health 1.5 times" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -257,26 +243,42 @@
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/specs/TaskTest.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
       <test-names>
-        <name value="Task" />
+        <name value="Hero" />
+        <name value="heroes favourite food boost health 1.5 times" />
+      </test-names>
+    </configuration>
+    <configuration name="Hero.heroes health cant go over 100" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
+      <test-names>
+        <name value="Hero" />
+        <name value="heroes health cant go over 100" />
       </test-names>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.can get heroes name" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Hero" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can get empty list of tasks" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Task" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Food" />
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Hero" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.hero can eart" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.heroes health cant go over 100" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can check favourite food" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.heroes favourite food boost health 1.5 times" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Food" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Task" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.heroes favourite food boost health 1.5 times" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.can check favourite food" />
         <item index="2" class="java.lang.String" itemvalue="Mocha.Hero" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can get empty list of tasks" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.can get heroes name" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.heroes health cant go over 100" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.hero can eart" />
       </list>
     </recent_temporary>
   </component>
@@ -293,14 +295,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516968970949</updated>
-      <workItem from="1516968972162" duration="1980000" />
+      <workItem from="1516968972162" duration="3282000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Food - 2018.01.26 at 12h 51m 36s.xml">
-      <configuration name="Food" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Food - 2018.01.26 at 12h 51m 54s.xml">
       <configuration name="Food" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -310,27 +309,30 @@
     <history-entry file="Food - 2018.01.26 at 12h 52m 46s.xml">
       <configuration name="Food" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Hero - 2018.01.26 at 12h 34m 56s.xml">
+    <history-entry file="Hero - 2018.01.26 at 13h 14m 21s.xml">
       <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Hero - 2018.01.26 at 12h 35m 09s.xml">
-      <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero_can_check_favourite_food - 2018.01.26 at 13h 17m 14s.xml">
+      <configuration name="Hero.can check favourite food" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Task - 2018.01.26 at 12h 40m 55s.xml">
-      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero_can_check_favourite_food - 2018.01.26 at 13h 17m 32s.xml">
+      <configuration name="Hero.can check favourite food" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Task - 2018.01.26 at 12h 41m 30s.xml">
-      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero_can_check_favourite_food - 2018.01.26 at 13h 17m 48s.xml">
+      <configuration name="Hero.can check favourite food" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Task - 2018.01.26 at 12h 42m 22s.xml">
-      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero_hero_can_eart - 2018.01.26 at 13h 13m 15s.xml">
+      <configuration name="Hero.hero can eart" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Task - 2018.01.26 at 12h 43m 13s.xml">
-      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero_heroes_favourite_food_boost_health_1_5_times - 2018.01.26 at 13h 20m 41s.xml">
+      <configuration name="Hero.heroes favourite food boost health 1.5 times" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Hero_heroes_health_cant_go_over_100 - 2018.01.26 at 13h 14m 16s.xml">
+      <configuration name="Hero.heroes health cant go over 100" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1980000" />
+    <option name="totallyTimeSpent" value="3282000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -363,7 +365,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -384,14 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -408,14 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Food.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -428,6 +414,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>

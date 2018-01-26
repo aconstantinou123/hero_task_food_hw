@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65cf6af2-b1bb-46e7-ab59-e032d5db8ee0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Hero.js" afterPath="$PROJECT_DIR$/Hero.js" />
+      <change beforePath="$PROJECT_DIR$/Task.js" afterPath="$PROJECT_DIR$/Task.js" />
       <change beforePath="$PROJECT_DIR$/specs/HeroTest.js" afterPath="$PROJECT_DIR$/specs/HeroTest.js" />
+      <change beforePath="$PROJECT_DIR$/specs/TaskTest.js" afterPath="$PROJECT_DIR$/specs/TaskTest.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +33,9 @@
       <file leaf-file-name="Hero.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <marker date="1516969339000" expanded="true" signature="44:153" ph="{...}" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,8 +43,8 @@
       <file leaf-file-name="Task.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -63,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroTest.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeroTest.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="321">
+              <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskTest.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TaskTest.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/TaskTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="321">
+              <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -119,13 +116,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Task.js" />
         <option value="$PROJECT_DIR$/Food.js" />
-        <option value="$PROJECT_DIR$/specs/TaskTest.js" />
         <option value="$PROJECT_DIR$/specs/FoodTest.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Hero.js" />
         <option value="$PROJECT_DIR$/specs/HeroTest.js" />
+        <option value="$PROJECT_DIR$/Task.js" />
+        <option value="$PROJECT_DIR$/specs/TaskTest.js" />
       </list>
     </option>
   </component>
@@ -196,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Hero">
+  <component name="RunManager" selected="Mocha.Task">
     <configuration name="Hero" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -209,6 +206,21 @@
       <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
       <test-names>
         <name value="Hero" />
+      </test-names>
+    </configuration>
+    <configuration name="Hero.can get empty list of tasks" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
+      <test-names>
+        <name value="Hero" />
+        <name value="can get empty list of tasks" />
       </test-names>
     </configuration>
     <configuration name="Hero.can get heroes name" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
@@ -226,14 +238,32 @@
         <name value="can get heroes name" />
       </test-names>
     </configuration>
-    <list size="2">
+    <configuration name="Task" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/specs/TaskTest.js</test-file>
+      <test-names>
+        <name value="Task" />
+      </test-names>
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.can get heroes name" />
       <item index="1" class="java.lang.String" itemvalue="Mocha.Hero" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can get empty list of tasks" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Task" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Hero" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.can get heroes name" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Task" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Hero" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can get empty list of tasks" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can get heroes name" />
       </list>
     </recent_temporary>
   </component>
@@ -250,26 +280,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516968970949</updated>
-      <workItem from="1516968972162" duration="812000" />
+      <workItem from="1516968972162" duration="1612000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Hero - 2018.01.26 at 12h 28m 15s.xml">
-      <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Hero - 2018.01.26 at 12h 29m 03s.xml">
       <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Hero - 2018.01.26 at 12h 29m 44s.xml">
       <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Hero_can_get_heroes_name - 2018.01.26 at 12h 27m 35s.xml">
-      <configuration name="Hero.can get heroes name" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero - 2018.01.26 at 12h 34m 56s.xml">
+      <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Hero - 2018.01.26 at 12h 35m 09s.xml">
+      <configuration name="Hero" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Hero_can_get_empty_list_of_tasks - 2018.01.26 at 12h 30m 37s.xml">
+      <configuration name="Hero.can get empty list of tasks" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Hero_can_get_empty_list_of_tasks - 2018.01.26 at 12h 30m 44s.xml">
+      <configuration name="Hero.can get empty list of tasks" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Task - 2018.01.26 at 12h 40m 55s.xml">
+      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Task - 2018.01.26 at 12h 41m 30s.xml">
+      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Task - 2018.01.26 at 12h 42m 22s.xml">
+      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Task - 2018.01.26 at 12h 43m 13s.xml">
+      <configuration name="Task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="812000" />
+    <option name="totallyTimeSpent" value="1612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -279,7 +327,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -301,7 +349,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -313,23 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Food.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/specs/TaskTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -353,20 +387,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hero.js">
+    <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1516969339000" expanded="true" signature="44:153" ph="{...}" />
-          </folding>
+        <state relative-caret-position="321">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
+    <entry file="file://$PROJECT_DIR$/Hero.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/TaskTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding />
         </state>
       </provider>

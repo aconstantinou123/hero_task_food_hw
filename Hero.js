@@ -22,11 +22,11 @@ Hero.prototype.favouriteFoodCheck = function (food) {
 
 Hero.prototype.eat = function (food) {
     var maxHealth = 100
-    if (this.favouriteFoodCheck(food) === true && this.health < maxHealth){
+    if (this.favouriteFoodCheck(food)){
         this.health += (food.replenishmentValue * 1.5);
     }
 
-    else if (this.health < maxHealth){
+    else {
         this.health += food.replenishmentValue;
     }
         if (this.health > maxHealth){
@@ -79,6 +79,11 @@ Hero.prototype.completeTask = function (taskToComplete) {
 Hero.prototype.viewCompletedTasks = function () {
     var completedTasks = this.tasks.filter(task => task.isComplete === true);
     return completedTasks;
+}
+
+Hero.prototype.viewIncompleteTasks = function () {
+    var incompleteTasks = this.tasks.filter(task => task.isComplete !== true);
+    return incompleteTasks;
 }
 
 module.exports = Hero;

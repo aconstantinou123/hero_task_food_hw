@@ -1,17 +1,24 @@
 const assert = require('assert');
 const Hero = require('../Hero');
 const Food = require('../Food');
+const Task = require('../Task');
 
 describe('Hero', function () {
 
     let hero;
     let food1;
     let food2;
+    let task1;
+    let task2;
+    let task3;
 
     beforeEach(function () {
         hero = new Hero('Captain Average', 'Clams');
         food1 = new Food('Cheese', 10);
         food2 = new Food('Clams', 20);
+        task1 = new Task(5, 3, 'Cats');
+        task2 = new Task(3, 5, 'Milk');
+        task3 = new Task(1, 2, 'Argentina');
     })
 
     it('can get heroes name', function () {
@@ -51,11 +58,48 @@ describe('Hero', function () {
         assert.strictEqual(hero.favouriteFoodCheck(food2), true);
     })
 
-    it ('heroes favourite food boost health 1.5 times', function () {
+    it('heroes favourite food boost health 1.5 times', function () {
         hero.health = 50;
         hero.eat(food2);
         assert.strictEqual(hero.health, 80);
     })
+
+    it('can add tasks to heroes tasks array', function () {
+        hero.addTasks(task1);
+        hero.addTasks(task2);
+        hero.addTasks(task3);
+        assert.strictEqual(hero.tasks.length, 3);
+    })
+
+    it('can sort tasks by difficulty', function () {
+        hero.addTasks(task1);
+        hero.addTasks(task3);
+        hero.addTasks(task2);
+        assert.deepEqual(hero.sortTasksByDifficulty(), [task1, task2, task3]);
+    })
+
+    it('can sort tasks by urgency', function () {
+        hero.addTasks(task1);
+        hero.addTasks(task3);
+        hero.addTasks(task2);
+        assert.deepEqual(hero.sortTasksByUrgency(), [task2, task1, task3]);
+    })
+
+    it('can sort tasks alphabetically by reward', function () {
+        hero.addTasks(task1);
+        hero.addTasks(task3);
+        hero.addTasks(task2);
+        assert.deepEqual(hero.sortTasksByReward(), [task3, task1, task2]);
+    })
+
+    it('can complete tasks', function () {
+        hero.addTasks(task1);
+        hero.addTasks(task3);
+        hero.addTasks(task2);
+        hero.completeTask(task1);
+        assert.strictEqual(task1.isComplete, true);
+    })
+
 
 
 })

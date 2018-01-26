@@ -100,6 +100,14 @@ describe('Hero', function () {
         assert.strictEqual(task1.isComplete, true);
     })
 
+    it('can return an array of completed tasks', function () {
+        hero.addTasks(task1);
+        hero.addTasks(task3);
+        hero.addTasks(task2);
+        hero.completeTask(task1);
+        assert.deepEqual(hero.viewCompletedTasks(), [task1]);
+    })
+
 
 
 })

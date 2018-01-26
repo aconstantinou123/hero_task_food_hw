@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hero.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hero.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="75" column="6" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+            <state relative-caret-position="426">
+              <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroTest.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeroTest.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="100" column="6" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+            <state relative-caret-position="1067">
+              <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -190,22 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Hero.can complete tasks">
-    <configuration name="Hero.can add tasks to heroes tasks array" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
-      <test-names>
-        <name value="Hero" />
-        <name value="can add tasks to heroes tasks array" />
-      </test-names>
-    </configuration>
+  <component name="RunManager" selected="Mocha.Hero.can return an array of completed tasks">
     <configuration name="Hero.can complete tasks" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -219,6 +204,21 @@
       <test-names>
         <name value="Hero" />
         <name value="can complete tasks" />
+      </test-names>
+    </configuration>
+    <configuration name="Hero.can return an array of completed tasks" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/specs/HeroTest.js</test-file>
+      <test-names>
+        <name value="Hero" />
+        <name value="can return an array of completed tasks" />
       </test-names>
     </configuration>
     <configuration name="Hero.can sort tasks alphabetically by reward" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
@@ -267,19 +267,19 @@
       </test-names>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.can add tasks to heroes tasks array" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by difficulty" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by urgency" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks alphabetically by reward" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.can complete tasks" />
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by difficulty" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by urgency" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks alphabetically by reward" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can complete tasks" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.can return an array of completed tasks" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.can complete tasks" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks alphabetically by reward" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by urgency" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by difficulty" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.can add tasks to heroes tasks array" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Hero.can return an array of completed tasks" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Hero.can complete tasks" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks alphabetically by reward" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by urgency" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Hero.can sort tasks by difficulty" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +296,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516968970949</updated>
-      <workItem from="1516968972162" duration="5584000" />
+      <workItem from="1516968972162" duration="5804000" />
     </task>
     <servers />
   </component>
@@ -304,8 +304,8 @@
     <history-entry file="Hero_can_complete_tasks - 2018.01.26 at 15h 01m 24s.xml">
       <configuration name="Hero.can complete tasks" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Hero_can_sort_tasks_alphabetically_by_reward - 2018.01.26 at 13h 58m 06s.xml">
-      <configuration name="Hero.can sort tasks alphabetically by reward" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Hero_can_return_an_array_of_completed_tasks - 2018.01.26 at 15h 04m 44s.xml">
+      <configuration name="Hero.can return an array of completed tasks" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Hero_can_sort_tasks_alphabetically_by_reward - 2018.01.26 at 14h 01m 00s.xml">
       <configuration name="Hero.can sort tasks alphabetically by reward" configurationId="mocha-javascript-test-runner" />
@@ -333,7 +333,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5584000" />
+    <option name="totallyTimeSpent" value="5804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -343,7 +343,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -419,18 +419,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
+    <entry file="file://$PROJECT_DIR$/Hero.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="100" column="6" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+        <state relative-caret-position="426">
+          <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hero.js">
+    <entry file="file://$PROJECT_DIR$/specs/HeroTest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="75" column="6" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        <state relative-caret-position="1067">
+          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
           <folding />
         </state>
       </provider>

@@ -76,4 +76,9 @@ Hero.prototype.completeTask = function (taskToComplete) {
     })
 }
 
+Hero.prototype.viewCompletedTasks = function () {
+    var completedTasks = this.tasks.filter(task => task.isComplete === true);
+    return completedTasks;
+}
+
 module.exports = Hero;
